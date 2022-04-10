@@ -1,4 +1,8 @@
-# 04-vuegame
+# Game in Vue
+I've started this game in this 
+[Vue course]( https://www.udemy.com/share/104WrC3@O7MwPl8MUxdJz8heLpBxz2WRiKq0elT4gMINys4rIq_6MQB1nQq_6nin-J95q5948w==/)
+ 
+\* Under construction \*
 
 ## Project setup
 ```
@@ -10,15 +14,3 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
