@@ -1,6 +1,6 @@
 import pokemonApi from '@/api/pokemonApi'
 
-const getPokemons = () => {
+export const getPokemons = () => {
   // siguiente sentencia crea un arreglo de un arreglo de 650 (que son los pokes que tiene la api)
   const pokemonsArr = Array.from(Array(650));
 
@@ -18,7 +18,7 @@ const getPokemonsOptions = async () => {
 
 
 
-const getPokemonsName = async ([a, b, c, d] = []) => {
+export const getPokemonsName = async ([a, b, c, d] = []) => {
 
   //   // // esto es una manera de hacer la petición, pero saltan de uno en uno
   // const resp = await pokemonApi.get(`/1`)
