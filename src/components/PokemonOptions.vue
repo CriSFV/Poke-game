@@ -30,7 +30,7 @@ ul {
 }
 li {
   background-color: white;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   cursor: pointer;
   margin-bottom: 10px;
@@ -42,7 +42,7 @@ li:hover {
 }
 
 .options-container {
-  margin-top: 70px;
+  margin-top: 30px;
   display: flex;
   justify-content: center;
 }

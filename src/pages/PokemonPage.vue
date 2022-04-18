@@ -48,7 +48,6 @@ export default {
     },
 
     checkAnswer(pokemonId) {
-      console.log("pokemon page", pokemonId);
       this.showAnswer = true;
       if (pokemonId === this.pokemon.id) {
         this.showPokemon = true;
