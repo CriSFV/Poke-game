@@ -2,7 +2,7 @@
   <div>
     <h1 v-if="!pokemon">Espere por favor...</h1>
     <div v-else>
-      <h1>¿Quien es este?</h1>
+      <h1>¿Quien es este amigo?</h1>
       <PokemonImage :pokemonId="pokemon.id" :showPokemon="showPokemon" />
       <PokemonOptions
         :pokemons="pokemonArr"
